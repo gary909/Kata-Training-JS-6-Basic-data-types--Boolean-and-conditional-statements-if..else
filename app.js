@@ -1,6 +1,9 @@
 function trueOrFalse(val){
-    if ()    return ?;             
-    else     return ?;
+    if (Boolean(val) == true){
+        return 'true';    
+    } else {
+        return 'false';
+    }    
 }
 
 console.log(trueOrFalse(a>b));// "false";
